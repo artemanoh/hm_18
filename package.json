@@ -1,14 +1,15 @@
 {
-  "name": "parcel",
+  "name": "hm_18",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://artemanoh.github.io/parcel",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html  --public-url /parcel",
+    "build": "parcel build src/index.html  --public-url /hm_18",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "server": "npx json-server students.json"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "dependencies": {
     "@pnotify/core": "^5.2.0",
     "gh-pages": "^6.3.0",
+    "json-server": "^1.0.0-beta.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^2.0.1"
   }
