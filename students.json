@@ -13,19 +13,6 @@
       "isEnrolled": true
     },
     {
-      "id": "3",
-      "name": "Dmytro Shevchenko",
-      "age": 14,
-      "course": "Mobile App Development",
-      "skills": [
-        "Java",
-        "Kotlin",
-        "Android Studio"
-      ],
-      "email": "dmytro.shevchenko@example.com",
-      "isEnrolled": false
-    },
-    {
       "id": "4",
       "name": "Anastasia Ivanova",
       "age": 17,
@@ -50,6 +37,21 @@
       "email": "mykola.bondarenko@example.com",
       "isEnrolled": true,
       "id": "5"
+    },
+    {
+      "id": "6fe4",
+      "name": "Артем Левурдяк",
+      "age": 16,
+      "course": "frontend",
+      "skills": [
+        "html",
+        "css",
+        "js",
+        "tilda",
+        "json"
+      ],
+      "email": "bejviklik2@gmail.com",
+      "isEnrolled": true
     }
   ]
 }
